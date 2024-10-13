@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif; /* Set a default font */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Light background color */
+}
+
+.container {
+    text-align: center; /* Center text inside the container */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+#color-box {
+    width: 200px; /* Fixed width for the color box */
+    height: 200px; /* Fixed height for the color box */
+    background-color: #3498db; /* Default background color (blue) */
+    margin: 20px auto; /* Center the box horizontally with margin */
+    border: 2px solid #2980b9; /* Add a border for better visibility */
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+}
+
+#change-color-btn {
+    padding: 10px 20px; /* Padding for button */
+    font-size: 16px; /* Set font size */
+    color: white; /* White text color */
+    background-color: #2980b9; /* Button color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#change-color-btn:hover {
+    background-color: #3498db; /* Change button color on hover */
+}
